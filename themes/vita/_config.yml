@@ -1,0 +1,99 @@
+title: Reassume
+resume:
+  name: HO NGHIA KHANG
+  jobtitle: AI Engineer
+
+  location:
+    # - key: address
+    #   value: Lienchieu
+    - key: city
+      value: Danang
+    - key: countryCode
+      value: Vietnam
+  
+  contact:
+    - icon: fa-external-link
+      text: https://kudokhang.github.io
+    - icon: fa-envelope
+      text: hnkhang.dev@gmail.com
+    - icon: fa-phone-square
+      text: (+84) 32 987 5024
+  
+  profiles:
+    - icon: fa-linkedin
+      text: LinkedIn
+      link: https://www.linkedin.com/in/khang-nghia-9668a315a/
+    - icon: fa-github
+      text: GitHub
+      link: https://github.com/KudoKhang
+  
+  # introduction
+  overview: I am a person with a burning passion for programming. I have proven expertise in research and deploy an AI system. Moreover, I also have experience building some projects based on Machine Learning and Deep Learning in Computer Vision. My career objects are finding a job in a professional environment, respect each other and take advantage of experience, the opportunity to access and learn the technology of the future. I am currently seeking long-term contract positions which will allow me to further improve my skills and take part in the development of my company I work.  #   level: beginner, intermediate, advanced, master
+  
+  # skills
+  skills:
+    - title: Computer Programmer
+      level: advanced
+      items: [Python, PyTorch, OpenCV, ImageProcessing]
+    - title: Design
+      level: intermediate
+      items: [Photoshop, Illustrator, Video Editor, Canva]
+    - title: DevOps
+      level: beginner
+      items: [Git, Docker, Linux, CI/CD]
+  
+  # work experience
+  experience:
+    - position: AI Engineer
+      duration: Nov 2022 - Now
+      company: FTECH CO., LTD.
+      website: https://ftech.ai
+      description: Participate in the construction and development of projects of the company
+      hilights: [
+        Develop and maintain AI modules,
+        Research suitable models and methods to apply to the project,
+        CI/CD. build docker images. build package. units test for AI modules
+      ]
+
+    - position: AI Internship
+      duration: Dec 2021 - Nov 2022
+      company: FTECH CO., LTD.
+      website: https://ftech.ai
+      description: Cultivate professional knowledge, teamwork process, familiarize yourself with the corporate environment and participate in the development of real company projects.
+      hilights: [
+        Research and development common tasks popular in Computer Vision such as Object Detection. Image Classification. Segmentation. 3D Model. OCR,
+        Focus on develop semantic segmentation tasks such as Hair Segmentation. Face Parsing. Human Parsing,
+        Improve research skills. reading papers. writing reports
+      ]
+
+
+  # Education
+  education:
+    - institution: Danang University of Technology
+      course: Bachelor of Automation Engineer
+      duration: Jul 2017 - Jul 2022
+      location: Danang, Vietnam
+      major: Automation Engineer 
+
+# Showcase your work
+  projects:
+  - title: License Plate Recognition
+    description: Automated license plate entry, deployment in the actual factory. Accuracy reaches 97% and continues to improve to approach 100%.
+    duration: Jul 2022 - Oct 2022
+    contribution: Creator and maintainer.
+  - title: AR Filter
+    description: Using PRNet model to get 3D face object then add sticker like messenger, instagram filter. 
+    duration: Jun 2022
+    contribution: Creator and maintainer.
+  - title: Design system product classification
+    description: Graduation project thesis - Design system of orange classification based on deep learning. 
+    duration: Apr 2022 - May 2022
+    contribution: Creator and maintainer.
+
+# Languages Known 
+# proficiency: beginner, intermediate, advanced, master, fluent, native speaker
+  languages:
+  - name: English
+    proficiency: intermediate
+  - name: Vietnamese
+    proficiency: native speaker

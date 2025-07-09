@@ -1,0 +1,9 @@
+resume:
+  name: HO NGHIA KHANG
+  jobtitle: AI Engineer
+  
+  contact:
+    - icon: fa-envelope
+      text: your-email@example.com
+    - icon: fa-phone-square
+      text: your-phone-number
