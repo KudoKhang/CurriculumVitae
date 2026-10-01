@@ -3,8 +3,7 @@
 > **AI Engineer & Applied AI Solutions Architect**  
 > Focus: **AI in Software Engineering (AI-SDLC)** • **Enterprise Digital Transformation (Chuyển Đổi Số)** • **Autonomous Agents** • **Computer Vision**
 
-🌐 **Live Website:** [https://kudokhang.github.io/CurriculumVitae/](https://kudokhang.github.io/CurriculumVitae/)  
-📄 **PDF Version:** [Ho_Nghia_Khang_CV_06_2026.pdf](./Ho_Nghia_Khang_CV_06_2026.pdf)
+🌐 **Live Website:** [https://kudokhang.github.io/CurriculumVitae/](https://kudokhang.github.io/CurriculumVitae/)
 
 ---
 
@@ -25,7 +24,7 @@ Bản Curriculum Vitae trực tuyến được thiết kế và tối ưu dành 
   - Chuyển đổi nhanh qua nút bấm ở thanh điều hướng trên cùng.
   - Tự động lưu trạng thái vào `localStorage` và đồng bộ với cấu hình hệ thống (`prefers-color-scheme`).
 - **Tối ưu in ấn xuất sắc (Print / PDF Ready):**
-  - Tích hợp `@media print` chuẩn hóa tài liệu theo khổ **A4**, tự động ẩn thanh công cụ web, chống ngắt trang dở dang (`page-break-inside: avoid`), đảm bảo khi bấm **Print / Save PDF** (hoặc `Ctrl + P`) sẽ xuất ra file PDF chuẩn mực.
+  - Tích hợp `@media print` chuẩn hóa tài liệu theo khổ **A4**, tự động ẩn thanh công cụ web, chống ngắt trang dở dang (`page-break-inside: avoid`), đảm bảo khi bấm **Print / Save as PDF** (hoặc `Ctrl + P`) sẽ xuất trực tiếp file PDF chuẩn mực từ trình duyệt.
 - **Tối ưu SEO & Structured Data:**
   - Tích hợp đầy đủ thẻ OpenGraph, Twitter Cards, và Schema.org JSON-LD structured data.
 
@@ -37,8 +36,6 @@ Bản Curriculum Vitae trực tuyến được thiết kế và tối ưu dành 
 CurriculumVitae/
 ├── index.html                   # Trang CV chính (HTML5 + Tailwind CDN + Semantic Tags)
 ├── style.css                    # Stylesheet tùy biến (Badges, Theme overrides, Print layout)
-├── Ho_Nghia_Khang_CV_06_2026.pdf # Bản CV PDF đính kèm phục vụ download trực tiếp
-├── cv.pdf                       # Bản PDF alias
 └── README.md                    # Tài liệu giới thiệu kho lưu trữ
 ```
 
@@ -72,7 +69,6 @@ Mỗi lần commit và push lên nhánh `gh-pages`, website sẽ tự động c�
 
 - **Họ và tên:** Hồ Nghĩa Khang (Ho Nghia Khang)
 - **Email:** [hnkhang.dev@gmail.com](mailto:hnkhang.dev@gmail.com)
-- **Điện thoại:** (+84) 32 987 5024
 - **Website cá nhân:** [https://kudokhang.github.io](https://kudokhang.github.io)
 - **GitHub:** [https://github.com/KudoKhang](https://github.com/KudoKhang)
 - **LinkedIn:** [https://linkedin.com/in/khangnghia](https://linkedin.com/in/khangnghia)
