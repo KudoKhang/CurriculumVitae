@@ -1,409 +1,738 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="scroll-smooth">
 <head>
-    <title>Curriculum Vitae</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/CurriculumVitae/style.css">
-<meta name="generator" content="Hexo 6.2.0"></head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ho Nghia Khang | AI Engineer — AI in Software Engineering &amp; Digital Transformation</title>
+  
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Ho Nghia Khang | AI Engineer — AI in Software Engineering &amp; Digital Transformation">
+  <meta name="description" content="CV of Ho Nghia Khang — AI Engineer specializing in Applying AI to Software Production (AI-SDLC), Autonomous Agents, Enterprise Digital Transformation, Computer Vision, and Scalable Microservices in Vietnam.">
+  <meta name="author" content="Ho Nghia Khang">
+  <meta name="keywords" content="Ho Nghia Khang, AI Engineer, AI in SDLC, Chuyen doi so, Digital Transformation Vietnam, Autonomous Agents, LLM, RAG, Computer Vision, FastAPI, Docker, Kafka, Danang, Vietnam">
 
-<body>
-    <div id="resume">
-    <header id="header" class="clear">
+  <!-- Open Graph -->
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://kudokhang.github.io/CurriculumVitae/">
+  <meta property="og:title" content="Ho Nghia Khang | AI Engineer — AI in SDLC &amp; Digital Transformation">
+  <meta property="og:description" content="AI Engineer with 5+ years of experience applying AI into software production pipelines, driving digital transformation, and deploying autonomous agents and computer vision systems in Vietnam.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://github.com/KudoKhang.png">
+
+  <!-- Fonts: Inter (Tech Sans), JetBrains Mono (Code/Badges/Metrics) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+            mono: ['JetBrains Mono', 'Menlo', 'monospace'],
+          },
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              500: '#3b82f6',
+              600: '#2563eb',
+              700: '#1d4ed8',
+              800: '#1e40af',
+              900: '#1e3a8a',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Structured Data JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ho Nghia Khang",
+    "alternateName": "Hồ Nghĩa Khang",
+    "jobTitle": "AI Engineer & Applied AI Solutions Specialist",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Mynavitechtus"
+    },
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "Danang University of Science and Technology"
+    },
+    "url": "https://kudokhang.github.io/CurriculumVitae/",
+    "sameAs": [
+      "https://github.com/KudoKhang",
+      "https://linkedin.com/in/khangnghia",
+      "https://kudokhang.github.io"
+    ]
+  }
+  </script>
+</head>
+<body class="bg-[#f8fafc] text-slate-800 dark:bg-[#0b0f17] dark:text-slate-200 min-h-screen font-sans antialiased selection:bg-blue-100 dark:selection:bg-blue-900/40 transition-colors duration-150">
+
+  <!-- Top Sticky Navigation Bar (Hidden in Print) -->
+  <aside class="no-print border-b border-slate-200 dark:border-slate-800/80 bg-white/80 dark:bg-[#0f172a]/80 text-xs text-slate-600 dark:text-slate-400 backdrop-blur-md sticky top-0 z-30">
+    <div class="max-w-4xl mx-auto px-6 h-11 flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <a href="https://kudokhang.github.io/" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors flex items-center gap-1.5 font-medium">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+          <span>Personal Website &amp; Blog</span>
+        </a>
+      </div>
+
+      <div class="flex items-center gap-3 sm:gap-4">
+        <!-- Print / PDF Button -->
+        <button onclick="window.print()" class="hover:text-slate-900 dark:hover:text-slate-100 transition-colors flex items-center gap-1.5" title="Print or save as PDF">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg>
+          <span class="hidden sm:inline">Print / Save PDF</span>
+        </button>
+
+        <span class="text-slate-300 dark:text-slate-700">|</span>
+
+        <!-- PDF Direct Download -->
+        <a href="./Ho_Nghia_Khang_CV_06_2026.pdf" download="Ho_Nghia_Khang_AI_Engineer_CV.pdf" target="_blank" class="font-medium text-blue-600 dark:text-blue-400 hover:underline flex items-center gap-1">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+          <span>PDF CV</span>
+        </a>
+
+        <span class="text-slate-300 dark:text-slate-700">|</span>
+
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" type="button" class="hover:text-slate-900 dark:hover:text-slate-100 transition-colors flex items-center gap-1" title="Toggle theme">
+          <span id="theme-text">Dark Mode</span>
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main Container -->
+  <main class="max-w-4xl mx-auto px-6 sm:px-10 py-10 sm:py-14 space-y-10">
+
+    <!-- 1. HEADER / IDENTITY -->
+    <header class="border-b border-slate-200 dark:border-slate-800 pb-7 space-y-4">
+      <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-3">
         <div>
-            <h1 class="name">HO NGHIA KHANG</h1>
-            <h2 class="label">AI Engineer</h2>
+          <div class="flex items-center gap-3">
+            <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-slate-900 dark:text-white">
+              Ho Nghia Khang
+            </h1>
+            <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300 border border-emerald-300 dark:border-emerald-800 font-mono">
+              AI in SDLC &amp; Chuyển Đổi Số
+            </span>
+          </div>
+          <p class="text-blue-600 dark:text-blue-400 font-medium text-lg sm:text-xl mt-1">
+            AI Engineer &amp; Applied AI Solutions Architect
+          </p>
+          <p class="text-slate-500 dark:text-slate-400 text-xs sm:text-sm mt-0.5">
+            AI-Augmented Software Production (SDLC) • Enterprise Digital Transformation • Autonomous Agents • Computer Vision
+          </p>
         </div>
 
-        <span class="location">
-            
-            <span class="city">Danang,</span>
-            
-            <span class="countryCode">Vietnam,</span>
-            
+        <div class="text-left sm:text-right text-xs sm:text-sm text-slate-600 dark:text-slate-400 space-y-1 font-mono">
+          <div class="flex items-center sm:justify-end gap-1.5">
+            <svg class="w-3.5 h-3.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            <span>Danang, Vietnam</span>
+          </div>
+          <div class="text-xs text-slate-500 dark:text-slate-400">Open to Remote / Hybrid / Relocation across Vietnam</div>
+        </div>
+      </div>
+
+      <!-- Quick Contact & Links Bar -->
+      <div class="pt-3 text-xs sm:text-sm text-slate-700 dark:text-slate-300 flex flex-wrap items-center gap-x-5 gap-y-2 font-mono border-t border-slate-200/80 dark:border-slate-800/60">
+        <span class="flex items-center gap-1.5">
+          <span class="text-slate-400 font-sans">✉</span>
+          <a href="mailto:hnkhang.dev@gmail.com" class="tech-link font-medium">hnkhang.dev@gmail.com</a>
         </span>
-
-
-        <div id="contact">
-            
-            <div ">
-                <span class=" fa fa-external-link"></span>
-                <a target="_blank" href="https://kudokhang.github.io">https://kudokhang.github.io</a>
-            </div>
-            
-            <div ">
-                <span class=" fa fa-envelope"></span>
-                <a target="_blank" href="hnkhang.dev@gmail.com">hnkhang.dev@gmail.com</a>
-            </div>
-            
-            <div ">
-                <span class=" fa fa-phone-square"></span>
-                <a target="_blank" href="(+84) 32 987 5024">(+84) 32 987 5024</a>
-            </div>
-            
-        </div>
-
-        <div id="profiles">
-            
-            <div class="item">
-                <div class="username">
-                    <span class="fa fa-linkedin social"></span>
-                    <span class="url">
-                        <a target="_blank" href="https://www.linkedin.com/in/khang-nghia-9668a315a/">LinkedIn</a>
-                    </span>
-                </div>
-            </div>
-            
-            <div class="item">
-                <div class="username">
-                    <span class="fa fa-github social"></span>
-                    <span class="url">
-                        <a target="_blank" href="https://github.com/KudoKhang">GitHub</a>
-                    </span>
-                </div>
-            </div>
-            
-        </div>
+        <span class="flex items-center gap-1.5">
+          <span class="text-slate-400 font-sans">☎</span>
+          <a href="tel:+84329875024" class="tech-link">(+84) 32 987 5024</a>
+        </span>
+        <span class="flex items-center gap-1.5">
+          <span class="text-slate-400 font-sans">🌐</span>
+          <a href="https://kudokhang.github.io" target="_blank" rel="noopener" class="tech-link">kudokhang.github.io</a>
+        </span>
+        <span class="flex items-center gap-1.5">
+          <span class="text-slate-400 font-sans">⚡</span>
+          <a href="https://github.com/KudoKhang" target="_blank" rel="noopener" class="tech-link">github.com/KudoKhang</a>
+        </span>
+        <span class="flex items-center gap-1.5">
+          <span class="text-slate-400 font-sans">💼</span>
+          <a href="https://linkedin.com/in/khangnghia" target="_blank" rel="noopener" class="tech-link">linkedin.com/in/khangnghia</a>
+        </span>
+      </div>
     </header>
 
-    <section class="section main-summary">
-        <section>
+    <!-- 2. EXECUTIVE SUMMARY & VALUE PROPOSITION -->
+    <section class="space-y-3">
+      <h2 class="section-heading">Executive Summary &amp; Digital Transformation Focus</h2>
+      <p class="text-slate-700 dark:text-slate-300 text-sm sm:text-[15px] leading-relaxed text-justify">
+        <strong>AI Engineer with over 5 years of hands-on experience</strong> pioneering the integration of Artificial Intelligence into the <strong>software development lifecycle (SDLC)</strong> and driving <strong>pragmatic digital transformation (Chuyển đổi số)</strong> for businesses and industrial facilities in Vietnam. Expert at architecting <strong>autonomous AI agents, RAG knowledge systems, and computer vision pipelines</strong>, and embedding them directly into development operations to eliminate repetitive toil, elevate team productivity, and deliver measurable business ROI. Strong engineering foundation from DUT’s elite PFIEV program with <strong>2 registered Vietnamese patent applications (Cục Sở hữu Trí tuệ)</strong> and production track records across manufacturing, cloud infrastructure, and edtech.
+      </p>
+      
+      <!-- Key Focus Areas Pills -->
+      <div class="pt-2 flex flex-wrap gap-2">
+        <span class="badge badge-featured">⚙️ AI-Augmented SDLC &amp; Developer Tooling</span>
+        <span class="badge badge-featured">🏢 Chuyển Đổi Số Doanh Nghiệp &amp; Nhà Máy</span>
+        <span class="badge badge-featured">🤖 Autonomous Problem-Solving Agents (MCP)</span>
+        <span class="badge badge-featured">👁️ Computer Vision &amp; Industrial Inspection</span>
+        <span class="badge badge-featured">☁️ High-Throughput Microservices &amp; GPU Optimization</span>
+      </div>
+    </section>
+
+    <!-- 3. FEATURED APPLIED AI & DIGITAL TRANSFORMATION PROJECTS -->
+    <section class="space-y-5">
+      <div class="flex items-baseline justify-between border-b-2 border-slate-200 dark:border-slate-800 pb-1.5 mt-7 mb-3">
+        <h2 class="font-bold text-slate-900 dark:text-white uppercase tracking-wider text-[1.05rem] flex items-center gap-2">
+          <span class="w-1.5 h-4 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-sm"></span>
+          Featured Applied AI &amp; Digital Transformation Projects
+        </h2>
+        <span class="text-xs font-mono text-slate-500 dark:text-slate-400">Production Deployments &amp; Case Studies</span>
+      </div>
+
+      <div class="space-y-6">
+
+        <!-- Project 1: CodeMath Solver (AI in SDLC) -->
+        <div class="project-item p-4 sm:p-5 rounded-lg border border-slate-200 dark:border-slate-800/80 bg-white/60 dark:bg-slate-900/40 space-y-2 hover:border-blue-400 dark:hover:border-blue-600 transition-colors">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <h3 class="font-bold text-base text-slate-900 dark:text-white">
+                CodeMath Solver: Autonomous Neural Code Synthesis &amp; Testing Agent
+              </h3>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-semibold bg-amber-100 text-amber-900 dark:bg-amber-950 dark:text-amber-300 font-mono">
+                🏆 #1 Leaderboard Rank in 24h
+              </span>
+            </div>
+            <span class="text-xs font-mono text-slate-500 whitespace-nowrap">Apr 2025 – Present</span>
+          </div>
+
+          <div class="flex flex-wrap gap-1.5 py-1">
+            <span class="badge">AI in SDLC</span>
+            <span class="badge">Autonomous Code Generation</span>
+            <span class="badge">Multi-Stage Prompt Chaining</span>
+            <span class="badge">Self-Healing Automation</span>
+            <span class="badge">Python</span>
+          </div>
+
+          <ul class="list-disc list-outside ml-5 space-y-1 text-sm text-slate-700 dark:text-slate-300 leading-relaxed">
+            <li><strong>AI in Software Production Showcase:</strong> Built an autonomous AI agent demonstrating end-to-end code synthesis, semantic algorithm deduction, automatic unit-test generation, and submission without human oversight.</li>
+            <li>Designed a multi-stage prompt chain pipeline: problem decomposition → algorithmic formulation → edge-case synthesis → code generation and formatting.</li>
+            <li>Implemented a resilient browser automation layer with exception handling and self-recovery routines, capable of operating unattended for extended multi-hour runs.</li>
+            <li><strong>Business / Technical Impact:</strong> Automated hundreds of programming challenge solutions, achieving the <strong>#1 position on codemath.vn within 24 hours of autonomous launch</strong>.</li>
+            <li><span class="font-mono text-xs text-slate-500 dark:text-slate-400">Open-Source Repository:</span> <a href="https://github.com/LectureHubTeam/codemath-solver" target="_blank" rel="noopener" class="tech-link font-mono text-xs">github.com/LectureHubTeam/codemath-solver</a></li>
+          </ul>
+        </div>
+
+        <!-- Project 2: Factory License Plate Recognition (Industrial Digital Transformation) -->
+        <div class="project-item p-4 sm:p-5 rounded-lg border border-slate-200 dark:border-slate-800/80 bg-white/60 dark:bg-slate-900/40 space-y-2 hover:border-blue-400 dark:hover:border-blue-600 transition-colors">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <h3 class="font-bold text-base text-slate-900 dark:text-white">
+                Factory License Plate Recognition &amp; Automated Logistics Checkpoint
+              </h3>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-semibold bg-emerald-100 text-emerald-900 dark:bg-emerald-950 dark:text-emerald-300 font-mono">
+                Chuyển Đổi Số Nhà Máy • 97% Accuracy
+              </span>
+            </div>
+            <span class="text-xs font-mono text-slate-500 whitespace-nowrap">Jul 2022 – Sep 2022</span>
+          </div>
+
+          <div class="flex flex-wrap gap-1.5 py-1">
+            <span class="badge">Industrial Chuyển Đổi Số</span>
+            <span class="badge">Computer Vision</span>
+            <span class="badge">CNN / OCR</span>
+            <span class="badge">Edge AI &amp; Docker</span>
+            <span class="badge">FastAPI</span>
+          </div>
+
+          <ul class="list-disc list-outside ml-5 space-y-1 text-sm text-slate-700 dark:text-slate-300 leading-relaxed">
+            <li><strong>Digital Transformation for Vietnamese Manufacturing:</strong> Spearheaded the digitalization of truck entry/exit logging at Vietnamese woodchip factories, completely eliminating manual paper registration and checkpoint bottlenecks.</li>
+            <li>Trained and fine-tuned CNN character recognition models robust to harsh environmental conditions: heavy wood dust, direct glare, rain, and angled vehicle positioning.</li>
+            <li>Achieved <strong>97% real-world accuracy</strong> on private field datasets; packaged into lightweight Docker microservices with a REST API for rapid on-premise edge hardware deployment.</li>
+            <li><strong>Publication:</strong> Research outcomes peer-reviewed and published in the <em>Proceedings of ATiGB 2022</em> (ISBN: 978-604-80-7240-7).</li>
+            <li><span class="font-mono text-xs text-slate-500 dark:text-slate-400">Repository:</span> <a href="https://github.com/KudoKhang/LPR" target="_blank" rel="noopener" class="tech-link font-mono text-xs">github.com/KudoKhang/LPR</a></li>
+          </ul>
+        </div>
+
+        <!-- Project 3: LectureHub (EdTech Digital Transformation & RAG) -->
+        <div class="project-item p-4 sm:p-5 rounded-lg border border-slate-200 dark:border-slate-800/80 bg-white/60 dark:bg-slate-900/40 space-y-2 hover:border-blue-400 dark:hover:border-blue-600 transition-colors">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <h3 class="font-bold text-base text-slate-900 dark:text-white">
+                LectureHub: Competitive Programming Ecosystem &amp; RAG Knowledge Mentor
+              </h3>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-semibold bg-blue-100 text-blue-800 dark:bg-blue-950 dark:text-blue-300 font-mono">
+                Chuyển Đổi Số Giáo Dục • Live Production
+              </span>
+            </div>
+            <span class="text-xs font-mono text-slate-500 whitespace-nowrap">Jun 2025 – Present</span>
+          </div>
+
+          <div class="flex flex-wrap gap-1.5 py-1">
+            <span class="badge">RAG Architecture</span>
+            <span class="badge">PGVector</span>
+            <span class="badge">Next.js</span>
+            <span class="badge">FastAPI</span>
+            <span class="badge">AWS Cloud &amp; CI/CD</span>
+          </div>
+
+          <ul class="list-disc list-outside ml-5 space-y-1 text-sm text-slate-700 dark:text-slate-300 leading-relaxed">
+            <li><strong>EdTech Digital Transformation:</strong> Built a centralized software platform aggregating programming problems from multiple international judges to support Vietnamese students and engineers in algorithmic upskilling.</li>
+            <li>Designed a Retrieval-Augmented Generation (RAG) assistant leveraging vector similarity search with <strong>PGVector</strong> to provide precise, hallucination-resistant hints and pedagogical walkthroughs.</li>
+            <li>Configured full AWS cloud infrastructure (EC2, S3, RDS) with automated CI/CD deployment pipelines ensuring 99.9% uptime.</li>
+            <li><span class="font-mono text-xs text-slate-500 dark:text-slate-400">Live Website:</span> <a href="https://lecturehub.tech" target="_blank" rel="noopener" class="tech-link font-mono text-xs">lecturehub.tech</a> &nbsp;|&nbsp; <span class="font-mono text-xs text-slate-500 dark:text-slate-400">RAG Chatbot Repo:</span> <a href="https://github.com/LectureHubTeam/lecturehub-chatbox" target="_blank" rel="noopener" class="tech-link font-mono text-xs">github.com/LectureHubTeam/lecturehub-chatbox</a></li>
+          </ul>
+        </div>
+
+        <!-- Project 4: GPU Resource Virtualization & Cost Optimization (Cloud Infra Transformation) -->
+        <div class="project-item p-4 sm:p-5 rounded-lg border border-slate-200 dark:border-slate-800/80 bg-white/60 dark:bg-slate-900/40 space-y-2 hover:border-blue-400 dark:hover:border-blue-600 transition-colors">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+            <h3 class="font-bold text-base text-slate-900 dark:text-white">
+              GPU Infrastructure Virtualization &amp; Resource Slicing Platform
+            </h3>
+            <span class="text-xs font-mono text-slate-500 whitespace-nowrap">Sep 2025 – Nov 2025</span>
+          </div>
+
+          <div class="flex flex-wrap gap-1.5 py-1">
+            <span class="badge">Infrastructure Cost Optimization</span>
+            <span class="badge">Ansible</span>
+            <span class="badge">GPU Virtualization</span>
+            <span class="badge">FastAPI</span>
+            <span class="badge">Linux Administration</span>
+          </div>
+
+          <ul class="list-disc list-outside ml-5 space-y-1 text-sm text-slate-700 dark:text-slate-300 leading-relaxed">
+            <li><strong>AI Cost Reduction for Vietnamese Tech Teams:</strong> Solved the prohibitive cost barrier of high-end GPU hardware for local AI developers by engineering a multi-tenant GPU slicing and dynamic allocation system.</li>
+            <li>Automated bare-metal server setup and CUDA runtime configuration using Ansible playbooks, slashing server provisioning time from days to under 15 minutes.</li>
+            <li>Developed robust REST APIs managing dynamic resource leasing, containerized tenant isolation, and automated environment teardown.</li>
+          </ul>
+        </div>
+
+        <!-- Project 5: High-Throughput Heavy Compute AI Microservices (Software Modernization) -->
+        <div class="project-item p-4 sm:p-5 rounded-lg border border-slate-200 dark:border-slate-800/80 bg-white/60 dark:bg-slate-900/40 space-y-2 hover:border-blue-400 dark:hover:border-blue-600 transition-colors">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+            <h3 class="font-bold text-base text-slate-900 dark:text-white">
+              High-Throughput Asynchronous Microservices for Heavy Compute AI Workloads
+            </h3>
+            <span class="text-xs font-mono text-slate-500 whitespace-nowrap">Sep 2023 – Jan 2025</span>
+          </div>
+
+          <div class="flex flex-wrap gap-1.5 py-1">
+            <span class="badge">Software Production Modernization</span>
+            <span class="badge">Apache Kafka</span>
+            <span class="badge">FastAPI</span>
+            <span class="badge">Celery</span>
+            <span class="badge">Docker</span>
+            <span class="badge">Prometheus/Grafana</span>
+          </div>
+
+          <ul class="list-disc list-outside ml-5 space-y-1 text-sm text-slate-700 dark:text-slate-300 leading-relaxed">
+            <li><strong>Modernizing Legacy Batch Pipelines:</strong> Redesigned monolithic media processing services into an event-driven, distributed microservice architecture capable of reliably processing heavy multi-hour video and image generation workloads.</li>
+            <li>Engineered non-blocking APIs with immediate response tokens, offloading GPU/CPU tasks to Kafka-coordinated worker pools with automatic retries and dead-letter queues.</li>
+            <li>Implemented end-to-end observability (Prometheus, Grafana, Sentry) providing real-time telemetry on worker throughput, GPU VRAM usage, and failure rates.</li>
+          </ul>
+        </div>
+
+        <!-- Project 6: Tactical Soccer Match Analysis (Sports Tech Digitalization) -->
+        <div class="project-item p-4 sm:p-5 rounded-lg border border-slate-200 dark:border-slate-800/80 bg-white/60 dark:bg-slate-900/40 space-y-2 hover:border-blue-400 dark:hover:border-blue-600 transition-colors">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <h3 class="font-bold text-base text-slate-900 dark:text-white">
+                Tactical Soccer Match Analysis &amp; Dual-Camera Panoramic Video Stitching
+              </h3>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-semibold bg-purple-100 text-purple-900 dark:bg-purple-950 dark:text-purple-300 font-mono">
+                Commercial Contract ($1,000+)
+              </span>
+            </div>
+            <span class="text-xs font-mono text-slate-500 whitespace-nowrap">Apr 2025 – Present</span>
+          </div>
+
+          <div class="flex flex-wrap gap-1.5 py-1">
+            <span class="badge">Digital Transformation in Sports</span>
+            <span class="badge">Computer Vision</span>
+            <span class="badge">Video Stitching</span>
+            <span class="badge">Electronic PTZ</span>
+            <span class="badge">OpenCV</span>
+          </div>
+
+          <ul class="list-disc list-outside ml-5 space-y-1 text-sm text-slate-700 dark:text-slate-300 leading-relaxed">
+            <li>Engineered a cross-platform desktop application enabling coaching staff to automate manual camera tracking and perform tactical spatial analytics.</li>
+            <li>Built an end-to-end video-stitching pipeline combining two wide-angle 4K camera streams with lens distortion correction, feature matching, and seamless blending.</li>
+            <li>Implemented an intelligent electronic pan-tilt-zoom (ePTZ) module that dynamically tracks player centroids in real time.</li>
+            <li><span class="font-mono text-xs text-slate-500 dark:text-slate-400">Demo Video:</span> <a href="https://youtube.com/watch?v=ZNacjRtL9JQ" target="_blank" rel="noopener" class="tech-link font-mono text-xs">youtube.com/watch?v=ZNacjRtL9JQ</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 4. CORE COMPETENCIES & TECH TOOLKIT -->
+    <section class="space-y-4">
+      <h2 class="section-heading">Competencies: AI in SDLC &amp; Digital Transformation</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+        
+        <!-- Category 1: AI-Augmented SDLC -->
+        <div class="p-4 rounded-lg border border-slate-200 dark:border-slate-800 bg-white/40 dark:bg-slate-900/30 space-y-2">
+          <div class="font-bold text-slate-900 dark:text-slate-100 flex items-center gap-1.5">
+            <span class="text-blue-500">⚙️</span> AI in Software Production (SDLC)
+          </div>
+          <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+            AI-Assisted Development, Autonomous Coding Agents, Multi-Turn Prompt Chaining, Tool Use &amp; MCP (Model Context Protocol), Automated Unit/Integration Test Synthesis, AI Code Review &amp; Documentation Generation.
+          </p>
+          <div class="flex flex-wrap gap-1 pt-1">
+            <span class="badge">Cursor</span>
+            <span class="badge">Claude Code</span>
+            <span class="badge">Antigravity</span>
+            <span class="badge">MCP</span>
+            <span class="badge">Test Synthesis</span>
+            <span class="badge">Prompt Chains</span>
+          </div>
+        </div>
+
+        <!-- Category 2: Digital Transformation & Microservices -->
+        <div class="p-4 rounded-lg border border-slate-200 dark:border-slate-800 bg-white/40 dark:bg-slate-900/30 space-y-2">
+          <div class="font-bold text-slate-900 dark:text-slate-100 flex items-center gap-1.5">
+            <span class="text-blue-500">🏢</span> Enterprise Digital Transformation
+          </div>
+          <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+            Process Automation, Legacy System Modernization, Distributed Microservices (FastAPI, Kafka, Celery), Non-blocking Asynchronous Architectures, Operational Bottleneck Elimination.
+          </p>
+          <div class="flex flex-wrap gap-1 pt-1">
+            <span class="badge">FastAPI</span>
+            <span class="badge">Apache Kafka</span>
+            <span class="badge">Celery</span>
+            <span class="badge">Workflow Automation</span>
+            <span class="badge">AsyncIO</span>
+          </div>
+        </div>
+
+        <!-- Category 3: Applied AI & Computer Vision -->
+        <div class="p-4 rounded-lg border border-slate-200 dark:border-slate-800 bg-white/40 dark:bg-slate-900/30 space-y-2">
+          <div class="font-bold text-slate-900 dark:text-slate-100 flex items-center gap-1.5">
+            <span class="text-blue-500">👁️</span> Applied AI &amp; Computer Vision
+          </div>
+          <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+            Industrial License Plate Recognition (LPR), Real-Time Video Stitching, Electronic PTZ, Object Detection, Semantic Segmentation (Face/Hair Parsing), OCR, Image Processing, OpenCV, PyTorch.
+          </p>
+          <div class="flex flex-wrap gap-1 pt-1">
+            <span class="badge">OpenCV</span>
+            <span class="badge">PyTorch</span>
+            <span class="badge">Video Stitching</span>
+            <span class="badge">LPR</span>
+            <span class="badge">OCR</span>
+            <span class="badge">Segmentation</span>
+          </div>
+        </div>
+
+        <!-- Category 4: Cloud, DevOps & Cost Optimization -->
+        <div class="p-4 rounded-lg border border-slate-200 dark:border-slate-800 bg-white/40 dark:bg-slate-900/30 space-y-2">
+          <div class="font-bold text-slate-900 dark:text-slate-100 flex items-center gap-1.5">
+            <span class="text-blue-500">☁️</span> Cloud, DevOps &amp; Cost Optimization
+          </div>
+          <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+            Docker, AWS (EC2, S3, Lambda, Batch, RDS, VPC), Ansible Infrastructure as Code, GPU Virtualization &amp; Slicing, CI/CD (GitHub Actions, GitLab CI), Linux Administration, Telemetry (Prometheus, Grafana, Sentry).
+          </p>
+          <div class="flex flex-wrap gap-1 pt-1">
+            <span class="badge">Docker</span>
+            <span class="badge">AWS Cloud</span>
+            <span class="badge">Ansible</span>
+            <span class="badge">GPU Slicing</span>
+            <span class="badge">CI/CD</span>
+            <span class="badge">Prometheus</span>
+          </div>
+        </div>
+
+        <!-- Category 5: Data, Storage & RAG -->
+        <div class="p-4 rounded-lg border border-slate-200 dark:border-slate-800 bg-white/40 dark:bg-slate-900/30 space-y-2">
+          <div class="font-bold text-slate-900 dark:text-slate-100 flex items-center gap-1.5">
+            <span class="text-blue-500">💾</span> Data Infrastructure &amp; RAG Systems
+          </div>
+          <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+            PostgreSQL, PGVector (Vector Embeddings &amp; Semantic Search), MongoDB, Redis (In-Memory Caching &amp; Deduplication), Knowledge Retrieval Pipelines, Hallucination Reduction.
+          </p>
+          <div class="flex flex-wrap gap-1 pt-1">
+            <span class="badge">PostgreSQL</span>
+            <span class="badge">PGVector</span>
+            <span class="badge">RAG</span>
+            <span class="badge">MongoDB</span>
+            <span class="badge">Redis</span>
+          </div>
+        </div>
+
+        <!-- Category 6: Product Prototyping & Frontends -->
+        <div class="p-4 rounded-lg border border-slate-200 dark:border-slate-800 bg-white/40 dark:bg-slate-900/30 space-y-2">
+          <div class="font-bold text-slate-900 dark:text-slate-100 flex items-center gap-1.5">
+            <span class="text-blue-500">💻</span> Rapid Prototyping &amp; Application Delivery
+          </div>
+          <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+            Rapid PoC validation for digital transformation initiatives: Next.js, ReactJS, Tailwind CSS, Streamlit for internal dashboards, Electron for cross-platform desktop inspection tools.
+          </p>
+          <div class="flex flex-wrap gap-1 pt-1">
+            <span class="badge">Next.js</span>
+            <span class="badge">React</span>
+            <span class="badge">Tailwind</span>
+            <span class="badge">Streamlit</span>
+            <span class="badge">Fast PoC</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 5. PROFESSIONAL WORK EXPERIENCE -->
+    <section class="space-y-4">
+      <h2 class="section-heading">Professional Work Experience</h2>
+
+      <div class="space-y-6">
+
+        <!-- Role 1: Mynavitechtus -->
+        <div class="experience-item space-y-1.5 border-l-2 border-blue-500 pl-4">
+          <div class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-1">
             <div>
-                <p>I am a person with a burning passion for programming. I have proven expertise in research and deploy an AI system. Moreover, I also have experience building some projects based on Machine Learning and Deep Learning in Computer Vision. My career objects are finding a job in a professional environment, respect each other and take advantage of experience, the opportunity to access and learn the technology of the future. I am currently seeking long-term contract positions which will allow me to further improve my skills and take part in the development of my company I work.</p>
+              <span class="font-bold text-base sm:text-lg text-slate-900 dark:text-slate-100">AI Engineer</span>
+              <span class="text-slate-400 mx-1.5">•</span>
+              <span class="font-semibold text-blue-600 dark:text-blue-400">Mynavitechtus</span>
             </div>
-        </section>
+            <span class="text-xs sm:text-sm font-mono text-slate-500 whitespace-nowrap">Dec 2025 – Present</span>
+          </div>
+          <div class="text-xs text-slate-500 dark:text-slate-400 font-mono">Danang, Vietnam</div>
+          <ul class="list-disc list-outside ml-5 space-y-1 text-sm text-slate-700 dark:text-slate-300 leading-relaxed">
+            <li>Lead the design and rollout of applied AI solutions across computer vision, machine learning models, and automated developer workflows.</li>
+            <li>Research and construct <strong>autonomous AI agents</strong> to automate internal software engineering operations, reduce manual triage, and accelerate sprint cycle velocities.</li>
+            <li>Benchmark frontier LLMs, multimodal models, and event-driven agent architectures to identify high-leverage integration opportunities for organizational productivity.</li>
+          </ul>
+        </div>
+
+        <!-- Role 2: Rikai Technology -->
+        <div class="experience-item space-y-1.5 border-l-2 border-slate-300 dark:border-slate-700 pl-4">
+          <div class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-1">
+            <div>
+              <span class="font-bold text-base sm:text-lg text-slate-900 dark:text-slate-100">Backend &amp; GPU Infrastructure Developer</span>
+              <span class="text-slate-400 mx-1.5">•</span>
+              <span class="font-semibold text-slate-700 dark:text-slate-300">Rikai Technology</span>
+            </div>
+            <span class="text-xs sm:text-sm font-mono text-slate-500 whitespace-nowrap">Sep 2025 – Nov 2025</span>
+          </div>
+          <div class="text-xs text-slate-500 dark:text-slate-400 font-mono">Danang, Vietnam</div>
+          <ul class="list-disc list-outside ml-5 space-y-1 text-sm text-slate-700 dark:text-slate-300 leading-relaxed">
+            <li>Modernized cloud infrastructure for AI model training and inference workloads using Ansible automation playbooks.</li>
+            <li>Engineered a GPU resource partitioning system that virtualizes expensive enterprise GPUs into smaller isolated rental units, dramatically reducing AI computing costs for engineering teams.</li>
+            <li>Built high-reliability REST APIs for programmatic server allocation, user provisioning, and usage metering.</li>
+          </ul>
+        </div>
+
+        <!-- Role 3: PiconTechnology -->
+        <div class="experience-item space-y-1.5 border-l-2 border-slate-300 dark:border-slate-700 pl-4">
+          <div class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-1">
+            <div>
+              <span class="font-bold text-base sm:text-lg text-slate-900 dark:text-slate-100">Python Developer</span>
+              <span class="text-slate-400 mx-1.5">•</span>
+              <span class="font-semibold text-slate-700 dark:text-slate-300">PiconTechnology</span>
+            </div>
+            <span class="text-xs sm:text-sm font-mono text-slate-500 whitespace-nowrap">Feb 2025 – Jun 2025</span>
+          </div>
+          <div class="text-xs text-slate-500 dark:text-slate-400 font-mono">Danang, Vietnam</div>
+          <ul class="list-disc list-outside ml-5 space-y-1 text-sm text-slate-700 dark:text-slate-300 leading-relaxed">
+            <li>Developed cloud backend features and proof-of-concept solutions in close collaboration with product owners and frontend developers.</li>
+            <li>Architected relational database schemas and queries in PostgreSQL for data integrity and speed.</li>
+            <li>Integrated AWS services (S3, Lambda, AWS Batch) to build scalable, serverless, event-driven backend workflows.</li>
+          </ul>
+        </div>
+
+        <!-- Role 4: FTECH AI & DevOps -->
+        <div class="experience-item space-y-1.5 border-l-2 border-slate-300 dark:border-slate-700 pl-4">
+          <div class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-1">
+            <div>
+              <span class="font-bold text-base sm:text-lg text-slate-900 dark:text-slate-100">AI Engineer / DevOps Engineer</span>
+              <span class="text-slate-400 mx-1.5">•</span>
+              <span class="font-semibold text-slate-700 dark:text-slate-300">FTECH CO., LTD</span>
+            </div>
+            <span class="text-xs sm:text-sm font-mono text-slate-500 whitespace-nowrap">Nov 2022 – Feb 2025</span>
+          </div>
+          <div class="text-xs text-slate-500 dark:text-slate-400 font-mono">Danang, Vietnam</div>
+          <ul class="list-disc list-outside ml-5 space-y-1 text-sm text-slate-700 dark:text-slate-300 leading-relaxed">
+            <li>Architected and scaled asynchronous microservices for heavy AI video/image compute workloads using FastAPI, Kafka, MongoDB, and Docker.</li>
+            <li>Designed non-blocking API patterns returning immediate processing tickets while background GPU cluster nodes executed prolonged rendering tasks.</li>
+            <li>Established robust CI/CD pipelines (GitLab CI, GitHub Actions) covering automated linting, test suites, container builds, zero-downtime releases, and fast rollback.</li>
+            <li>Configured production telemetry with Prometheus, Grafana, and Sentry for real-time observability into GPU metrics, service uptime, and error budgets.</li>
+            <li>Mentored junior engineers and interns on AI model deployment, containerization, Git workflows, and software reliability best practices.</li>
+          </ul>
+        </div>
+
+        <!-- Role 5: FTECH Intern -->
+        <div class="experience-item space-y-1.5 border-l-2 border-slate-300 dark:border-slate-700 pl-4">
+          <div class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-1">
+            <div>
+              <span class="font-bold text-base sm:text-lg text-slate-900 dark:text-slate-100">AI Research Intern</span>
+              <span class="text-slate-400 mx-1.5">•</span>
+              <span class="font-semibold text-slate-700 dark:text-slate-300">FTECH CO., LTD</span>
+            </div>
+            <span class="text-xs sm:text-sm font-mono text-slate-500 whitespace-nowrap">Dec 2021 – Nov 2022</span>
+          </div>
+          <div class="text-xs text-slate-500 dark:text-slate-400 font-mono">Danang, Vietnam</div>
+          <ul class="list-disc list-outside ml-5 space-y-1 text-sm text-slate-700 dark:text-slate-300 leading-relaxed">
+            <li>Researched and implemented computer vision models for semantic segmentation (face parsing, hair segmentation), object detection, and OCR.</li>
+            <li>Reproduced state-of-the-art computer vision papers and benchmarked performance on proprietary datasets.</li>
+          </ul>
+        </div>
+
+      </div>
     </section>
 
-    <section class="section margin1">
-        <header>
-            <h2 class="section-title">Skills</h2>
-        </header>
-        <section id="skills">
-            
-            <div class="item">
-                <h3 class="name">
-                    Computer Programmer
-                </h3>
+    <!-- 6. PATENTS & INTELLECTUAL PROPERTY IN VIETNAM -->
+    <section class="space-y-4">
+      <h2 class="section-heading">Patents &amp; Intellectual Property (Cục Sở Hữu Trí Tuệ)</h2>
 
-                <div class="level advanced">
-                    <em>ADVANCED</em>
-                    <div class="bar"></div>
-                </div>
-                <ul class="keywords">
-                    
-                    <li>Python</li>
-                    
-                    <li>PyTorch</li>
-                    
-                    <li>OpenCV</li>
-                    
-                    <li>ImageProcessing</li>
-                    
-                </ul>
-            </div>
-            
-            <div class="item">
-                <h3 class="name">
-                    Design
-                </h3>
+      <div class="space-y-3">
+        <!-- Patent 1 -->
+        <div class="p-3.5 rounded-lg border border-slate-200 dark:border-slate-800 bg-white/40 dark:bg-slate-900/30 space-y-1">
+          <div class="font-bold text-sm text-slate-900 dark:text-slate-100">
+            Automated Facial Blemish Removal Process Leveraging Image Processing and Deep Neural Networks
+          </div>
+          <div class="text-xs text-slate-600 dark:text-slate-400">
+            Intellectual Property Application, Utility Solution No. <strong>4976/SHTT-SC.IP</strong> (Dated April 3, 2026) • <em>Ministry of Science and Technology – Intellectual Property Office of Vietnam (Cục Sở hữu Trí tuệ Việt Nam)</em>.
+          </div>
+        </div>
 
-                <div class="level intermediate">
-                    <em>INTERMEDIATE</em>
-                    <div class="bar"></div>
-                </div>
-                <ul class="keywords">
-                    
-                    <li>Photoshop</li>
-                    
-                    <li>Illustrator</li>
-                    
-                    <li>Video Editor</li>
-                    
-                    <li>Canva</li>
-                    
-                </ul>
-            </div>
-            
-            <div class="item">
-                <h3 class="name">
-                    DevOps
-                </h3>
+        <!-- Patent 2 -->
+        <div class="p-3.5 rounded-lg border border-slate-200 dark:border-slate-800 bg-white/40 dark:bg-slate-900/30 space-y-1">
+          <div class="font-bold text-sm text-slate-900 dark:text-slate-100">
+            Automated Panoramic Video Generation and Moving Object Tracking from Dual Fixed Cameras Using Image Stitching and Electronic PTZ
+          </div>
+          <div class="text-xs text-slate-600 dark:text-slate-400">
+            Intellectual Property Application, Application No. <strong>7314/SHTT-SC.IP</strong> (Dated October 27, 2025) • <em>Ministry of Science and Technology – Intellectual Property Office of Vietnam (Cục Sở hữu Trí tuệ Việt Nam)</em>.
+          </div>
+        </div>
 
-                <div class="level beginner">
-                    <em>BEGINNER</em>
-                    <div class="bar"></div>
-                </div>
-                <ul class="keywords">
-                    
-                    <li>Git</li>
-                    
-                    <li>Docker</li>
-                    
-                    <li>Linux</li>
-                    
-                    <li>CI/CD</li>
-                    
-                </ul>
-            </div>
-            
-        </section>
+        <!-- Conference Paper -->
+        <div class="p-3.5 rounded-lg border border-slate-200 dark:border-slate-800 bg-white/40 dark:bg-slate-900/30 space-y-1">
+          <div class="font-bold text-sm text-slate-900 dark:text-slate-100">
+            Using Convolutional Neural Networks for License Plate Recognition at Woodchip Factories
+          </div>
+          <div class="text-xs text-slate-600 dark:text-slate-400">
+            Dang Phuoc Vinh, <strong>Ho Nghia Khang</strong>, and Doan Le Anh • <em>Proceedings of the 7th International Conference on Advanced Technologies in Green Buildings (ATiGB 2022)</em>, ISBN: 978-604-80-7240-7, pp. 1–6, 2022.
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section class="section">
-        <header>
-            <h2 class="section-title">Work Experience <span
-                    class="item-count">(2)</span></h2>
-        </header>
+    <!-- 7. EDUCATION -->
+    <section class="space-y-4">
+      <h2 class="section-heading">Education</h2>
+      
+      <div class="space-y-4">
+        <!-- Master's Degree -->
+        <div class="space-y-1">
+          <div class="flex justify-between items-baseline gap-2">
+            <h3 class="font-bold text-base text-slate-900 dark:text-slate-100">
+              Danang University of Science and Technology (DUT)
+            </h3>
+            <span class="text-xs sm:text-sm font-mono text-slate-500 whitespace-nowrap">2026 – Present</span>
+          </div>
+          <div class="text-slate-700 dark:text-slate-300 text-sm">
+            <span class="font-medium text-blue-600 dark:text-blue-400">Master’s Program in Mechatronics Engineering</span>
+          </div>
+          <div class="text-xs text-slate-500 dark:text-slate-400">Danang, Vietnam</div>
+        </div>
 
-        
-        <section class="work-item">
-
-            <input id="work-item-1" type="checkbox" class="toggle-item" checked="checked">
-            <label for="work-item-1"></label>
-
-            <header>
-                <div class="position">AI Engineer</div>
-                <div class="company">FTECH CO., LTD.</div>
-                <div class="date">Nov 2022 - Now</div>
-            </header>
-
-            <span class="website">
-                <a target="_blank" href="https://ftech.ai">https://ftech.ai</a>
-            </span>
-            <div class="item" id="work-item">
-                <div class="summary">
-                    <p></p>
-                    <p>Participate in the construction and development of projects of the company</p>
-                    <p></p>
-                </div>
-                <ul class="highlights">
-                    
-                    <li>
-                        <p>Develop and maintain AI modules</p>
-                    </li>
-                    
-                    <li>
-                        <p>Research suitable models and methods to apply to the project</p>
-                    </li>
-                    
-                    <li>
-                        <p>CI/CD. build docker images. build package. units test for AI modules</p>
-                    </li>
-                    
-
-                </ul>
-            </div>
-        </section>
-        
-        <section class="work-item">
-
-            <input id="work-item-2" type="checkbox" class="toggle-item" checked="checked">
-            <label for="work-item-2"></label>
-
-            <header>
-                <div class="position">AI Internship</div>
-                <div class="company">FTECH CO., LTD.</div>
-                <div class="date">Dec 2021 - Nov 2022</div>
-            </header>
-
-            <span class="website">
-                <a target="_blank" href="https://ftech.ai">https://ftech.ai</a>
-            </span>
-            <div class="item" id="work-item">
-                <div class="summary">
-                    <p></p>
-                    <p>Cultivate professional knowledge, teamwork process, familiarize yourself with the corporate environment and participate in the development of real company projects.</p>
-                    <p></p>
-                </div>
-                <ul class="highlights">
-                    
-                    <li>
-                        <p>Research and development common tasks popular in Computer Vision such as Object Detection. Image Classification. Segmentation. 3D Model. OCR</p>
-                    </li>
-                    
-                    <li>
-                        <p>Focus on develop semantic segmentation tasks such as Hair Segmentation. Face Parsing. Human Parsing</p>
-                    </li>
-                    
-                    <li>
-                        <p>Improve research skills. reading papers. writing reports</p>
-                    </li>
-                    
-
-                </ul>
-            </div>
-        </section>
-        
+        <!-- Bachelor's Degree PFIEV -->
+        <div class="space-y-1">
+          <div class="flex justify-between items-baseline gap-2">
+            <h3 class="font-bold text-base text-slate-900 dark:text-slate-100">
+              Danang University of Science and Technology (DUT)
+            </h3>
+            <span class="text-xs sm:text-sm font-mono text-slate-500 whitespace-nowrap">2017 – 2022</span>
+          </div>
+          <div class="text-slate-700 dark:text-slate-300 text-sm">
+            <span class="font-medium">Bachelor of Engineering in Automation</span> — 
+            <span class="text-blue-600 dark:text-blue-400 font-medium">Programme de Formation d’Ingénieurs d’Excellence au Vietnam (PFIEV)</span>
+          </div>
+          <p class="text-xs text-slate-500 dark:text-slate-400 leading-normal">
+            Elite French-Vietnamese engineering curriculum with comprehensive emphasis on control theory, applied mathematics, industrial robotics, and automation engineering.
+          </p>
+        </div>
+      </div>
     </section>
 
-    <section class="section">
-        <header>
-            <h2 class="section-title">Education <span class="item-count">(1)</span></h2>
-        </header>
+    <!-- 8. COMMUNITY & FUTURE TECH TALENT MENTORSHIP -->
+    <section class="space-y-3">
+      <h2 class="section-heading">Community &amp; Tech Upskilling in Vietnam</h2>
 
-        <section id="education">
-            
-            <section class="education-item">
-                <header>
-                    <div class="header">
-                        <div class="course">
-                            Bachelor of Automation Engineer
-                        </div>
-                        <div class="institution">
-                            Danang University of Technology
-                        </div>
-                        <div class="date">
-                            Jul 2017 - Jul 2022
-                        </div>
-                    </div>
-                </header>
-
-                <div class="item">
-                    <div class="location">
-                        <strong class="fa fa-map-marker"></strong> <span>Danang, Vietnam</span>
-                    </div>
-                </div>
-            </section>
-            
-
-        </section>
+      <div class="space-y-1.5">
+        <div class="flex justify-between items-baseline gap-2">
+          <div>
+            <span class="font-bold text-base text-slate-900 dark:text-slate-100">Programming Educator &amp; Mentor</span>
+            <span class="text-slate-400 mx-1.5">•</span>
+            <span class="font-medium text-slate-700 dark:text-slate-300">ScratchZone</span>
+          </div>
+          <span class="text-xs sm:text-sm font-mono text-slate-500 whitespace-nowrap">May 2024 – Present</span>
+        </div>
+        <div class="text-xs text-slate-500 dark:text-slate-400 font-mono">Danang, Vietnam</div>
+        <ul class="list-disc list-outside ml-5 space-y-1 text-sm text-slate-700 dark:text-slate-300 leading-relaxed">
+          <li>Mentored 100+ students in computational thinking, Python fundamentals, and algorithm foundations — nurturing next-generation tech talent for Vietnam’s digital economy.</li>
+          <li>Authored customized learning roadmaps demystifying advanced coding and problem-solving concepts into intuitive, hands-on challenges.</li>
+          <li><span class="font-mono text-xs text-slate-500 dark:text-slate-400">Community Site:</span> <a href="https://scratchzone.tech" target="_blank" rel="noopener" class="tech-link font-mono text-xs">scratchzone.tech</a></li>
+        </ul>
+      </div>
     </section>
 
-    <section class="section">
-        <header>
-            <h2 class="section-title">Projects</h2>
-        </header>
-        
-        <section id="project">
-            <section class="project-item">
-                <input id="project-item-1" type="checkbox" class="toggle-item" checked="checked">
-                <label for="project-item-1"></label>
+    <!-- Document Footer (Hidden in Print) -->
+    <footer class="no-print pt-8 border-t border-slate-200 dark:border-slate-800 text-xs text-slate-500 dark:text-slate-400 flex flex-col sm:flex-row items-center justify-between gap-3 font-mono">
+      <div>
+        Ho Nghia Khang • AI in SDLC &amp; Digital Transformation
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="https://kudokhang.github.io/" class="tech-link">Website</a>
+        <span>•</span>
+        <a href="https://github.com/KudoKhang" class="tech-link">GitHub</a>
+        <span>•</span>
+        <a href="https://linkedin.com/in/khangnghia" class="tech-link">LinkedIn</a>
+        <span>•</span>
+        <a href="./Ho_Nghia_Khang_CV_06_2026.pdf" target="_blank" class="tech-link">PDF Version</a>
+      </div>
+    </footer>
 
-                <header>
-                    <div class="header">
-                        <div class="title">
-                            License Plate Recognition
-                        </div>
-                        <div class="contribution">
-                            Creator and maintainer.
-                        </div>
-                        <div class="date">
-                            Jul 2022 - Oct 2022
-                        </div>
-                    </div>
+  </main>
 
-                </header>
+  <!-- Script for Theme Toggle & Persistence -->
+  <script>
+    const themeToggleBtn = document.getElementById('theme-toggle');
+    const themeText = document.getElementById('theme-text');
 
-                <div class="item">
-                    <div class="summary">
-                        <p></p>
-                        <p>Automated license plate entry, deployment in the actual factory. Accuracy reaches 97% and continues to improve to approach 100%.</p>
-                        <p></p>
-                    </div>
-                </div>
-            </section>
-        </section>
-        
-        <section id="project">
-            <section class="project-item">
-                <input id="project-item-2" type="checkbox" class="toggle-item" checked="checked">
-                <label for="project-item-2"></label>
+    function updateThemeUI(isDark) {
+      if (isDark) {
+        document.documentElement.classList.add('dark');
+        themeText.textContent = 'Light Mode';
+      } else {
+        document.documentElement.classList.remove('dark');
+        themeText.textContent = 'Dark Mode';
+      }
+    }
 
-                <header>
-                    <div class="header">
-                        <div class="title">
-                            AR Filter
-                        </div>
-                        <div class="contribution">
-                            Creator and maintainer.
-                        </div>
-                        <div class="date">
-                            Jun 2022
-                        </div>
-                    </div>
+    const savedTheme = localStorage.getItem('builder_cv_theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const initialDark = savedTheme ? savedTheme === 'dark' : prefersDark;
+    updateThemeUI(initialDark);
 
-                </header>
+    themeToggleBtn.addEventListener('click', () => {
+      const isDark = document.documentElement.classList.contains('dark');
+      const nextDark = !isDark;
+      updateThemeUI(nextDark);
+      localStorage.setItem('builder_cv_theme', nextDark ? 'dark' : 'light');
+    });
+  </script>
 
-                <div class="item">
-                    <div class="summary">
-                        <p></p>
-                        <p>Using PRNet model to get 3D face object then add sticker like messenger, instagram filter.</p>
-                        <p></p>
-                    </div>
-                </div>
-            </section>
-        </section>
-        
-        <section id="project">
-            <section class="project-item">
-                <input id="project-item-3" type="checkbox" class="toggle-item" checked="checked">
-                <label for="project-item-3"></label>
-
-                <header>
-                    <div class="header">
-                        <div class="title">
-                            Design system product classification
-                        </div>
-                        <div class="contribution">
-                            Creator and maintainer.
-                        </div>
-                        <div class="date">
-                            Apr 2022 - May 2022
-                        </div>
-                    </div>
-
-                </header>
-
-                <div class="item">
-                    <div class="summary">
-                        <p></p>
-                        <p>Graduation project thesis - Design system of orange classification based on deep learning.</p>
-                        <p></p>
-                    </div>
-                </div>
-            </section>
-        </section>
-        
-    </section>
-
-    <section class="section margin1">
-        <header>
-            <h2 class="section-title">Languages</h2>
-        </header>
-        <section id="languages">
-            
-            <div class="display">
-                <h3 class="language">
-                    English
-                </h3>
-                <div class="item">
-                    <div class="level fluency intermediate">
-                        <em>INTERMEDIATE</em>
-                        <div class="bar"></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="display">
-                <h3 class="language">
-                    Vietnamese
-                </h3>
-                <div class="item">
-                    <div class="level fluency native speaker">
-                        <em>NATIVE SPEAKER</em>
-                        <div class="bar"></div>
-                    </div>
-                </div>
-            </div>
-            
-        </section>
-    </section>
-
-</div>
-    <footer>
-  Made with <i class="fa fa-heart aria-hidden=" true=""></i> by <a href="https://github.com/KudoKhang" target="_blank" rel="noopener">Kudo Khang</a> <span class="print">( <a href="javascript:window.print()">PDF</a> )</span>
-</footer>
 </body>
-
 </html>
